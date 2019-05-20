@@ -109,6 +109,18 @@ body {
   padding: 2rem;
 }
 
+#information {
+  text-align: center;
+}
+
+#information h1 {
+  color: coral;
+}
+
+#information ul {
+  list-style-type: none;
+}
+
 .current {
   font-weight: bold;
   color: coral;
