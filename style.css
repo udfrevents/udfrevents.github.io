@@ -58,6 +58,8 @@ body {
 #showcase {
   background-image: url("images/policecharger.PNG");
   background-position: center right;
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 300px;
   margin-bottom: 30px;
   text-align: center;
