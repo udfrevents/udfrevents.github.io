@@ -55,7 +55,7 @@ body {
   padding-right: 15px;
 }
 
-a {
+#main a {
   color: rgb(143, 137, 137);
   text-decoration: none;
   font-weight: bold;
@@ -129,7 +129,7 @@ a {
   list-style-type: none;
 }
 
-.current {
+.current a {
   font-weight: bold;
   color: coral;
 }
