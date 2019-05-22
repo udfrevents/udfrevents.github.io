@@ -55,6 +55,12 @@ body {
   padding-right: 15px;
 }
 
+a {
+  color: rgb(143, 137, 137);
+  text-decoration: none;
+  font-weight: bold;
+}
+
 #showcase {
   background-image: url("images/policecharger.PNG");
   background-position: center right;
