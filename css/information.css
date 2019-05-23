@@ -1,0 +1,11 @@
+#information {
+  text-align: center;
+}
+
+#information h1 {
+  color: coral;
+}
+
+#information ul {
+  list-style-type: none;
+}

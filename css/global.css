@@ -1,9 +1,10 @@
+/* Main */
 body {
   background-color: #333;
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
-  line-height: 1.6em;
+  line-height: 2rem;
   margin: 0;
 }
 
@@ -13,18 +14,10 @@ body {
   overflow: hidden;
 }
 
-.bold {
-  font-weight: bold;
-}
-
+/* Header */
 #main-header {
   background-color: #000;
   color: #fff;
-}
-
-#important {
-  color: red;
-  font-size: 2rem;
 }
 
 #header {
@@ -33,6 +26,7 @@ body {
   color: #fff;
 }
 
+/* Navbar */
 #navbar {
   background-color: #000080;
   color: #fff;
@@ -54,28 +48,20 @@ body {
   padding-right: 15px;
 }
 
-#main a {
-  color: rgb(143, 137, 137);
-  text-decoration: none;
+.current a {
   font-weight: bold;
+  color: coral;
 }
 
+/* Showcase */
 #showcase {
-  background-image: url("images/policecharger.PNG");
+  background-image: url("../images/policecharger.PNG");
   background-position: center right;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 300px;
   margin-bottom: 30px;
   text-align: center;
-}
-
-.gold {
-  color: #ffd700;
-}
-
-.red {
-  color: #8b0000;
 }
 
 #showcase h1 {
@@ -85,41 +71,20 @@ body {
   padding-top: 30px;
 }
 
-#main {
-  float: left;
-  width: 70%;
-  padding: 0 30px;
-  box-sizing: border-box;
+/* Colors */
+.gold {
+  color: #ffd700;
 }
 
-#main h1 {
-  font-size: 3rem;
+.red {
+  color: #8b0000;
 }
 
-#main p {
-  font-size: 20px;
-  line-height: 2rem;
+.bold {
+  font-weight: bold;
 }
 
-#sidebar {
-  float: right;
-  width: 30%;
-  background: #000080;
-  color: #fff;
-  padding: 10px;
-  box-sizing: border-box;
-}
-
-#sidebar h1 {
-  font-size: 2rem;
-  text-align: center;
-}
-
-#sidebar ul {
-  color: coral;
-  font-size: 20px;
-}
-
+/* Footer */
 #main-footer {
   background: #000;
   color: #fff;
@@ -127,29 +92,6 @@ body {
   padding: 20px;
   margin-top: 40px;
   padding: 2rem;
-}
-
-#information {
-  text-align: center;
-}
-
-#information h1 {
-  color: coral;
-}
-
-#information ul {
-  list-style-type: none;
-}
-
-.current a {
-  font-weight: bold;
-  color: coral;
-}
-
-img {
-  display: block;
-  width: 50%;
-  float: right;
 }
 
 @media (max-width: 600px) {
