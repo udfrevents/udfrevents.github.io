@@ -1,5 +1,4 @@
 /* Main Stuff */
-
 body {
   background-image: url(../images/repeating.png);
   background-size: 100%;
@@ -37,8 +36,8 @@ body {
   color: #fff;
   outline: #000 3px solid;
 }
-/* Navbar */
 
+/* Navbar */
 #navbar {
   background-color: #000;
   color: #fff;
